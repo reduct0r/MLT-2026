@@ -1,0 +1,31 @@
+{
+  "dataset": "sklearn Wine",
+  "task_type": "classification",
+  "random_state": 42,
+  "best_model_on_test": {
+    "model": "LogisticRegression",
+    "accuracy": 0.9722222222222222,
+    "f1": 0.9709618874773139,
+    "roc_auc": 1.0
+  },
+  "models_test_metrics": [
+    {
+      "model": "LogisticRegression",
+      "accuracy": 0.9722222222222222,
+      "f1": 0.9709618874773139,
+      "roc_auc": 1.0
+    },
+    {
+      "model": "SVM (RBF)",
+      "accuracy": 0.9722222222222222,
+      "f1": 0.9709618874773139,
+      "roc_auc": 1.0
+    },
+    {
+      "model": "DecisionTree",
+      "accuracy": 0.9444444444444444,
+      "f1": 0.9457411645054665,
+      "roc_auc": 0.9542929292929291
+    }
+  ]
+}

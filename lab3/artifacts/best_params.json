@@ -1,0 +1,20 @@
+{
+  "dataset": "sklearn Wine",
+  "baseline_k": 5,
+  "grid_best_params": {
+    "model__metric": "minkowski",
+    "model__n_neighbors": 7,
+    "model__p": 1,
+    "model__weights": "uniform"
+  },
+  "grid_best_cv_score": 0.9788774579244361,
+  "grid_time_seconds": 0.19227880000835285,
+  "random_best_params": {
+    "model__weights": "uniform",
+    "model__p": 2,
+    "model__n_neighbors": 30,
+    "model__metric": "minkowski"
+  },
+  "random_best_cv_score": 0.9732171007228215,
+  "random_time_seconds": 0.18336789999739267
+}
