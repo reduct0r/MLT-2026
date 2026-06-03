@@ -1,0 +1,478 @@
+{
+  "dataset_rows": 297,
+  "train_size": 222,
+  "test_size": 75,
+  "best_model": "RF",
+  "grid_results": {
+    "LogReg": {
+      "best_params": {
+        "clf__C": 0.1
+      },
+      "best_cv_roc_auc": 0.9178571428571427
+    },
+    "KNN": {
+      "best_params": {
+        "clf__n_neighbors": 15
+      },
+      "best_cv_roc_auc": 0.8727281746031746
+    },
+    "SVC": {
+      "best_params": {
+        "clf__C": 0.1,
+        "clf__kernel": "linear"
+      },
+      "best_cv_roc_auc": 0.915734126984127
+    },
+    "Tree": {
+      "best_params": {
+        "clf__max_depth": 3,
+        "clf__min_samples_leaf": 1
+      },
+      "best_cv_roc_auc": 0.8656448412698413
+    },
+    "RF": {
+      "best_params": {
+        "clf__max_depth": 5,
+        "clf__n_estimators": 100
+      },
+      "best_cv_roc_auc": 0.9242460317460317
+    },
+    "ET": {
+      "best_params": {
+        "clf__max_depth": 10,
+        "clf__n_estimators": 200
+      },
+      "best_cv_roc_auc": 0.9162103174603174
+    },
+    "GB": {
+      "best_params": {
+        "clf__learning_rate": 0.05,
+        "clf__max_depth": 3,
+        "clf__n_estimators": 50
+      },
+      "best_cv_roc_auc": 0.930952380952381
+    }
+  },
+  "metrics": [
+    {
+      "metric": "precision",
+      "alg": "LogReg",
+      "value": 0.84375,
+      "stage": "baseline"
+    },
+    {
+      "metric": "recall",
+      "alg": "LogReg",
+      "value": 0.7714285714285715,
+      "stage": "baseline"
+    },
+    {
+      "metric": "f1",
+      "alg": "LogReg",
+      "value": 0.8059701492537313,
+      "stage": "baseline"
+    },
+    {
+      "metric": "roc_auc",
+      "alg": "LogReg",
+      "value": 0.9142857142857141,
+      "stage": "baseline"
+    },
+    {
+      "metric": "accuracy",
+      "alg": "LogReg",
+      "value": 0.8266666666666667,
+      "stage": "baseline"
+    },
+    {
+      "metric": "precision",
+      "alg": "KNN",
+      "value": 0.8235294117647058,
+      "stage": "baseline"
+    },
+    {
+      "metric": "recall",
+      "alg": "KNN",
+      "value": 0.8,
+      "stage": "baseline"
+    },
+    {
+      "metric": "f1",
+      "alg": "KNN",
+      "value": 0.8115942028985508,
+      "stage": "baseline"
+    },
+    {
+      "metric": "roc_auc",
+      "alg": "KNN",
+      "value": 0.8935714285714287,
+      "stage": "baseline"
+    },
+    {
+      "metric": "accuracy",
+      "alg": "KNN",
+      "value": 0.8266666666666667,
+      "stage": "baseline"
+    },
+    {
+      "metric": "precision",
+      "alg": "SVC",
+      "value": 0.8787878787878788,
+      "stage": "baseline"
+    },
+    {
+      "metric": "recall",
+      "alg": "SVC",
+      "value": 0.8285714285714286,
+      "stage": "baseline"
+    },
+    {
+      "metric": "f1",
+      "alg": "SVC",
+      "value": 0.8529411764705882,
+      "stage": "baseline"
+    },
+    {
+      "metric": "roc_auc",
+      "alg": "SVC",
+      "value": 0.9371428571428573,
+      "stage": "baseline"
+    },
+    {
+      "metric": "accuracy",
+      "alg": "SVC",
+      "value": 0.8666666666666667,
+      "stage": "baseline"
+    },
+    {
+      "metric": "precision",
+      "alg": "Tree",
+      "value": 0.7419354838709677,
+      "stage": "baseline"
+    },
+    {
+      "metric": "recall",
+      "alg": "Tree",
+      "value": 0.6571428571428571,
+      "stage": "baseline"
+    },
+    {
+      "metric": "f1",
+      "alg": "Tree",
+      "value": 0.696969696969697,
+      "stage": "baseline"
+    },
+    {
+      "metric": "roc_auc",
+      "alg": "Tree",
+      "value": 0.7285714285714285,
+      "stage": "baseline"
+    },
+    {
+      "metric": "accuracy",
+      "alg": "Tree",
+      "value": 0.7333333333333333,
+      "stage": "baseline"
+    },
+    {
+      "metric": "precision",
+      "alg": "RF",
+      "value": 0.8709677419354839,
+      "stage": "baseline"
+    },
+    {
+      "metric": "recall",
+      "alg": "RF",
+      "value": 0.7714285714285715,
+      "stage": "baseline"
+    },
+    {
+      "metric": "f1",
+      "alg": "RF",
+      "value": 0.8181818181818182,
+      "stage": "baseline"
+    },
+    {
+      "metric": "roc_auc",
+      "alg": "RF",
+      "value": 0.9332142857142858,
+      "stage": "baseline"
+    },
+    {
+      "metric": "accuracy",
+      "alg": "RF",
+      "value": 0.84,
+      "stage": "baseline"
+    },
+    {
+      "metric": "precision",
+      "alg": "ET",
+      "value": 0.8666666666666667,
+      "stage": "baseline"
+    },
+    {
+      "metric": "recall",
+      "alg": "ET",
+      "value": 0.7428571428571429,
+      "stage": "baseline"
+    },
+    {
+      "metric": "f1",
+      "alg": "ET",
+      "value": 0.8,
+      "stage": "baseline"
+    },
+    {
+      "metric": "roc_auc",
+      "alg": "ET",
+      "value": 0.9214285714285714,
+      "stage": "baseline"
+    },
+    {
+      "metric": "accuracy",
+      "alg": "ET",
+      "value": 0.8266666666666667,
+      "stage": "baseline"
+    },
+    {
+      "metric": "precision",
+      "alg": "GB",
+      "value": 0.8387096774193549,
+      "stage": "baseline"
+    },
+    {
+      "metric": "recall",
+      "alg": "GB",
+      "value": 0.7428571428571429,
+      "stage": "baseline"
+    },
+    {
+      "metric": "f1",
+      "alg": "GB",
+      "value": 0.7878787878787878,
+      "stage": "baseline"
+    },
+    {
+      "metric": "roc_auc",
+      "alg": "GB",
+      "value": 0.8692857142857142,
+      "stage": "baseline"
+    },
+    {
+      "metric": "accuracy",
+      "alg": "GB",
+      "value": 0.8133333333333334,
+      "stage": "baseline"
+    },
+    {
+      "metric": "precision",
+      "alg": "LogReg",
+      "value": 0.8709677419354839,
+      "stage": "tuned"
+    },
+    {
+      "metric": "recall",
+      "alg": "LogReg",
+      "value": 0.7714285714285715,
+      "stage": "tuned"
+    },
+    {
+      "metric": "f1",
+      "alg": "LogReg",
+      "value": 0.8181818181818182,
+      "stage": "tuned"
+    },
+    {
+      "metric": "roc_auc",
+      "alg": "LogReg",
+      "value": 0.9185714285714286,
+      "stage": "tuned"
+    },
+    {
+      "metric": "accuracy",
+      "alg": "LogReg",
+      "value": 0.84,
+      "stage": "tuned"
+    },
+    {
+      "metric": "precision",
+      "alg": "KNN",
+      "value": 0.8125,
+      "stage": "tuned"
+    },
+    {
+      "metric": "recall",
+      "alg": "KNN",
+      "value": 0.7428571428571429,
+      "stage": "tuned"
+    },
+    {
+      "metric": "f1",
+      "alg": "KNN",
+      "value": 0.7761194029850746,
+      "stage": "tuned"
+    },
+    {
+      "metric": "roc_auc",
+      "alg": "KNN",
+      "value": 0.9057142857142857,
+      "stage": "tuned"
+    },
+    {
+      "metric": "accuracy",
+      "alg": "KNN",
+      "value": 0.8,
+      "stage": "tuned"
+    },
+    {
+      "metric": "precision",
+      "alg": "SVC",
+      "value": 0.8709677419354839,
+      "stage": "tuned"
+    },
+    {
+      "metric": "recall",
+      "alg": "SVC",
+      "value": 0.7714285714285715,
+      "stage": "tuned"
+    },
+    {
+      "metric": "f1",
+      "alg": "SVC",
+      "value": 0.8181818181818182,
+      "stage": "tuned"
+    },
+    {
+      "metric": "roc_auc",
+      "alg": "SVC",
+      "value": 0.9271428571428572,
+      "stage": "tuned"
+    },
+    {
+      "metric": "accuracy",
+      "alg": "SVC",
+      "value": 0.84,
+      "stage": "tuned"
+    },
+    {
+      "metric": "precision",
+      "alg": "Tree",
+      "value": 0.7857142857142857,
+      "stage": "tuned"
+    },
+    {
+      "metric": "recall",
+      "alg": "Tree",
+      "value": 0.6285714285714286,
+      "stage": "tuned"
+    },
+    {
+      "metric": "f1",
+      "alg": "Tree",
+      "value": 0.6984126984126984,
+      "stage": "tuned"
+    },
+    {
+      "metric": "roc_auc",
+      "alg": "Tree",
+      "value": 0.7464285714285714,
+      "stage": "tuned"
+    },
+    {
+      "metric": "accuracy",
+      "alg": "Tree",
+      "value": 0.7466666666666667,
+      "stage": "tuned"
+    },
+    {
+      "metric": "precision",
+      "alg": "RF",
+      "value": 0.8666666666666667,
+      "stage": "tuned"
+    },
+    {
+      "metric": "recall",
+      "alg": "RF",
+      "value": 0.7428571428571429,
+      "stage": "tuned"
+    },
+    {
+      "metric": "f1",
+      "alg": "RF",
+      "value": 0.8,
+      "stage": "tuned"
+    },
+    {
+      "metric": "roc_auc",
+      "alg": "RF",
+      "value": 0.9378571428571428,
+      "stage": "tuned"
+    },
+    {
+      "metric": "accuracy",
+      "alg": "RF",
+      "value": 0.8266666666666667,
+      "stage": "tuned"
+    },
+    {
+      "metric": "precision",
+      "alg": "ET",
+      "value": 0.84375,
+      "stage": "tuned"
+    },
+    {
+      "metric": "recall",
+      "alg": "ET",
+      "value": 0.7714285714285715,
+      "stage": "tuned"
+    },
+    {
+      "metric": "f1",
+      "alg": "ET",
+      "value": 0.8059701492537313,
+      "stage": "tuned"
+    },
+    {
+      "metric": "roc_auc",
+      "alg": "ET",
+      "value": 0.9164285714285715,
+      "stage": "tuned"
+    },
+    {
+      "metric": "accuracy",
+      "alg": "ET",
+      "value": 0.8266666666666667,
+      "stage": "tuned"
+    },
+    {
+      "metric": "precision",
+      "alg": "GB",
+      "value": 0.8,
+      "stage": "tuned"
+    },
+    {
+      "metric": "recall",
+      "alg": "GB",
+      "value": 0.6857142857142857,
+      "stage": "tuned"
+    },
+    {
+      "metric": "f1",
+      "alg": "GB",
+      "value": 0.7384615384615385,
+      "stage": "tuned"
+    },
+    {
+      "metric": "roc_auc",
+      "alg": "GB",
+      "value": 0.8885714285714286,
+      "stage": "tuned"
+    },
+    {
+      "metric": "accuracy",
+      "alg": "GB",
+      "value": 0.7733333333333333,
+      "stage": "tuned"
+    }
+  ]
+}
