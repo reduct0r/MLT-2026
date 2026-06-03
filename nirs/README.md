@@ -11,7 +11,6 @@
 - `scripts/generate_report.py` — генерация отчёта Word
 - `app/streamlit_app.py` — веб-демонстрация с настройкой `n_estimators`
 - `reports/figures/` — графики для отчёта
-- `reports/Отчет_НИРС.docx` — отчёт (без титульного листа)
 
 ## Установка
 
@@ -26,5 +25,3 @@ python scripts/run_pipeline.py
 python scripts/generate_report.py
 streamlit run app/streamlit_app.py
 ```
-
-Титульный лист и бланк задания вставляются в Word вручную по шаблону вуза.
